@@ -428,7 +428,8 @@
                 <use href="./images/icons.svg#icon-x"></use>
             </svg>
         </button> 
-        <form class="modal-form"></form>
+
+        <form class="modal-form">
     <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
     <label class="input-label">
         <span>Ім'я</span>
@@ -461,18 +462,27 @@
     <span>Коментар</span>
     <textarea name="user-text" id="user-text"  class="textarea" placeholder="Введіть текст"></textarea>
 </label>
-    
-<label>
-    <input class="modal-agree" type="checkbox" name="language" value="погоджуюсь">
-    <span class="agree-text">Погоджуюся з розсилкою та приймаю</span> <a href="" class="link-modal">Умови договору</a>
-</label>
-    
-    
-    <button class="button-modal" type="submit">Відправити</button>
+<div class="modal-field">
+    <input
+    type="checkbox"
+    name="policy"
+    class="modal-check hide"
+    id="policy"
+    />
+    <label for="policy" class="check-text">
+        <span> <svg class="check-icon" width="16" height="15">
+            <use href="./images/icons.svg#icon-policy"></use>
+        </svg></span>
+        Погоджуюся з розсилкою та приймаю<a class="link-modal" href="">Умови договору</a></label>
 </div>
-</div>
+<button type="submit" class="button-modal">Відправити</button>
+        
+    
 </div>
 
+        </form>
+        </div>
+        </div>
 <script src="./js/modal.js"></script>
 </body>
 </html>
