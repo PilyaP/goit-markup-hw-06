@@ -9,22 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
     <header class="header">
         <div class="container link-item">
-              <nav class="nav">
+            <nav class="nav">
             <a class="text" href="/"><span class="web">Web</span>Studio</a>
             <ul class="header-container">
             
                 <li class="item"><a class="header-nav-link courrent" href="./index.html">Студія</a>
                 </li>
                 <li class="item">
-                 <a class="header-nav-link" href="./portfolio.html">
-                 Портфоліо
-                 </a>
-             </li>
+                <a class="header-nav-link" href="./portfolio.html">
+                Портфоліо
+            </a>
+            </li>
                 <li class="item">
 <a class="header-nav-link" href="#">
                     Контакти</a>
@@ -45,25 +43,18 @@
             </li>
             </ul>
         </div>
-    
     </header>
-<main>
-    
+        <main>
         <section class="color-section">
-
-     <div class="container">
-
+        <div class="container">
             <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
             <button class="button-section-index" type="button" data-modal-open>
             Замовити послугу </button>   
-     </div>
+    </div>
         </section>
-
-
     <section class="section">
         
         <div class="container">
-
         <h2 hidden>Наші переваги</h2>
         <ul class="section-paragraph">
             <li class="item-perevagu">
@@ -105,7 +96,6 @@
         </ul>
         </div>
     </section>
-
     <section class="section padding-zero">
         <div class="container">
         <div class="third-pad">
@@ -141,11 +131,9 @@
     
         </div>
     </section>
-
     <section class="section fon">
         <div class="container">
         <h2 class="section-title-text-last">Наша команда</h2>
-
         <ul class="gap-list">
                 <li class="item-pers">
             <img src="./images/pers1.jpg" alt="Ігор Дем'яненко"  width="270"  height="260">
@@ -295,12 +283,11 @@
                         </li>
                     </ul>
                 </div>    
-
             </li>
         </ul>
     </div>  
     </section>
-<section class="section">
+    <section class="section">
     <div class="container">
         <h2 class="hero-last-section">Постійні клієнти</h2>
         <ul class="clien-list">
@@ -348,9 +335,8 @@
             </li>
         </ul>
     </div>
-</section>
-</main>
-    
+    </section>
+    </main>
         <footer class="footer-fon">
             <div class="container foter-container">
             <div class="address-wrap">
@@ -358,7 +344,6 @@
                 <span class="web">Web</span><span class="studio-white">Studio</span>
             </a>
             <address>
-
                 <ul>
                     <li class="item-footer">
                         <a class="footer-google" href="https://goo.gl/maps/ibuLNQxGVC2uv8bN8">м. Київ, пр-т Лесі Українки, 26</a>
@@ -370,7 +355,6 @@
                         <a class="footer-text" href="tel:+380961111111">38 096 111 11 11</a>
                     </li>
                 </ul>
-              
             </address>
             </div>
             <div>
@@ -406,21 +390,17 @@
             </li>
         </ul>
         </div>
-        <div>
+        <form class="form-footer-input">
+        
             <p class="label-footer">Підпишіться на розсилку</p>
-        
-        
-            <ul class="footer-flex-input">
-                
-                    <li><input class="footer-mail-input" type="text" placeholder="E-mail" name="mail-footer" required>
-                    </li>
-                
-                    <li><button class="button-footer" type="button">Підписатися<svg class="icon-footer-button" width="24" height="24">
+            <div class="input-flex">
+            <input class="footer-mail-input" type="text" placeholder="E-mail" name="mail-footer" required>
+                    <button class="button-footer" type="button">Підписатися<svg class="icon-footer-button" width="24" height="24">
                         <use href="./images/icons.svg#icon-iconsend"></use>
-                    </svg> </button></li>
-            
-                </ul>
+                    </svg> 
+                </button>
             </div>
+        </form>
         </footer>
         <div class="backdrop is-hidden" data-modal>
         <div class="modal"> <button class="modal-close" data-modal-close>
@@ -428,7 +408,6 @@
                 <use href="./images/icons.svg#icon-x"></use>
             </svg>
         </button> 
-
         <form class="modal-form">
     <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
     <label class="input-label">
@@ -474,15 +453,15 @@
             <use href="./images/icons.svg#icon-policy"></use>
         </svg></span>
         Погоджуюся з розсилкою та приймаю<a class="link-modal" href="">Умови договору</a></label>
-</div>
+    </div>
 <button type="submit" class="button-modal">Відправити</button>
         
     
-</div>
-
+    </div>
         </form>
         </div>
         </div>
+
 <script src="./js/modal.js"></script>
 </body>
 </html>
