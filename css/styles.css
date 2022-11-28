@@ -945,7 +945,8 @@ appearance: none;
     display: flex;
     align-items: center;
     color: var(--gray);
-justify-content: center;
+
+
 }
     
     
@@ -957,6 +958,7 @@ justify-content: center;
 .modal-field
 {
 display: flex;
+justify-content: center;
 
 }
 
